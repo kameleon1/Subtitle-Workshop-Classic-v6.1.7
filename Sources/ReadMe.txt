@@ -5,19 +5,18 @@ Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selectio
 
 The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.
 
-More detailed:
 
 2018-06-10 (v6.0d):
 
     Added the VLC player as extra renderer (only visible if VLC - the 32 bits version- is installed on your PC).
 	
-	The Dutch translation has been completed now.
+    The Dutch translation has been completed now.
 	
-	Added translations for the 'Insert Symbol' window ([Main menu/Edit], values 12, 13 and 14).
+    Added translations for the 'Insert Symbol' window ([Main menu/Edit], values 12, 13 and 14).
 	
-	The 'Insert Symbol' window is resizeable now.
+    The 'Insert Symbol' window is resizeable now.
 	
-	The window 'tools, information and errors' can be maximized now.
+    The window 'tools, information and errors' can be maximized now.
 
 2018-04-26 (v6.0c):
 
