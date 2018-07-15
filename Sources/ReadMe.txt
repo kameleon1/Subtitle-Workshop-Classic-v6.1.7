@@ -3,10 +3,29 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
 
-The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.
+2018-07-15 (v6.0d):
 
+    Added 3 extra shortcuts (section Miscellaneous):
+	- Applies the "Keep minimum duration" setting to the selected subtitles
+    - Applies the "Default Subtitle Pause" setting to the selected subtitles
+    - Applies both the "Keep minimum duration" and the "Default Subtitle Pause" settings to the selected subtitles
+
+    Added an editing possibility for the shortcuts (added to the Settings menu).
+    - all items in the new section [Edit Shortcuts] were added to the language file
+	- if section [Main menu/Settings] of the language file item 09 was added to the language file
+	- for every language a translation of the shortcut descriptions (including some other info) was added: e.g. Shortcuts_English.txt
+      where 'English' should be replaced by the actual language name. The shortcut translation files are located in the 'Lang' subdir.
+	  English and Dutch files are already filled. If a file for a certain language is not found the English one is used.
+
+    Removed an error when switching video renderers.
+   
+    Removed some errors in the Dutch translation.
+	
+	Added 'shortcuts.key' (the shortcuts file) to the setup.exe file (was missing).
 
 2018-06-10 (v6.0d):
+
+    The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.
 
     Added the VLC player as extra renderer (only visible if VLC - the 32 bits version- is installed on your PC).
 	

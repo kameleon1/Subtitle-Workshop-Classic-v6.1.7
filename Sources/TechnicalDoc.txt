@@ -232,6 +232,7 @@ Following files have been changed or added with respect to their 'base version (
 Added:
 	Subtitle WorkShop\main\Units\myVLC.pas (from v6.0d onwards)
 	Subtitle WorkShop\main\Units\Rcs_Resize.pas
+	Subtitle WorkShop\main\Units\Scale.pas
 	Subtitle WorkShop\main\SWComponents\Sources\AsyncCalls.pas
 
 Changed in 3rd party package PascalScript with respect to https://github.com/remobjects/pascalscript:
@@ -274,6 +275,7 @@ Changed in the Subtitle workshop package with respect to Subtitle WorkSkop 6.0b 
 	Subtitle Workshop\main\Units\VideoPreview.pas 
 	Subtitle Workshop\main\Units\VTInPlaceEdition.pas 
 	Subtitle WorkShop\main\SWComponents\Sources\USSpeller.pas
+    Subtitle WorkShop\main\SWComponents\Sources\SWTimeCounter.pas
 
 	Remark: in the Forms folder the corresponding .dfm files of .pas files above are also changed.
 
