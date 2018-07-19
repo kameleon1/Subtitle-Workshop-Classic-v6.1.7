@@ -1,12 +1,47 @@
 # Subtitle-Workshop-Classic-v6.0d
 
-Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
+Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
-The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.  
+### 2018-07-19 (v6.0d/28)
 
+* Made the "Timed Text" format work again. 3 filetypes are associated with that format now:
+
+	xml (timed text xml format) 
+	
+	ttml (also timed text xml format)
+	
+	dfxp (Netflix timed text xml format)
+	
+* The 3rd party software "xmlparser-1.0.20" is no longer needed.	
+
+### 2018-07-15 (v6.0d/25):
+
+* Added 3 extra shortcuts (section Miscellaneous):
+
+	Applies the "Keep minimum duration" setting to the selected subtitles
+	
+    Applies the "Default Subtitle Pause" setting to the selected subtitles
+	
+    Applies both the "Keep minimum duration" and the "Default Subtitle Pause" settings to the selected subtitles
+
+* Added an editing possibility for the shortcuts (added to the Settings menu).
+
+    All items in the new section [Edit Shortcuts] were added to the language file
+	
+	In section [Main menu/Settings] of the language file item 09 was added to the language file
+	
+	For every language a translation of the shortcut descriptions (including some other info) was added: e.g. Shortcuts_English.txt where 'English' should be replaced by the actual language name. The shortcut translation files are located in the 'Lang' subdir. English and Dutch files are already filled. If a file for a certain language is not found the English one is used.
+
+* Removed an error when switching video renderers.
+   
+* Removed some errors in the Dutch translation.
+	
+* Added 'shortcuts.key' (the shortcuts file) to the setup.exe file (was missing).
 
 
 ### 2018-06-10 (v6.0d):
+
+* The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.
 
 * Added the VLC player as extra renderer (only visible if VLC - the 32 bits version- is installed on your PC).
 
@@ -50,13 +85,13 @@ The versionnumber has been changed from 6.0c to 6.0d because of the addition of 
 
 ### 2017-11-15:
 
-* UTF8 and UTF16 subtitles supported now
+* UTF8 and UTF16 subtitles supported now:
 
-	Adapted also the "Insert Symbol" screen.
+    Adapted also the "Insert Symbol" screen.
 	
-	UTF8 format is detected automatically.
+    UTF8 format is detected automatically.
 	
-	The "Save as" screen has been adapted to add the possibility to save a subtitle as UTF8.
+    The "Save as" screen has been adapted to add the possibility to save a subtitle as UTF8.
 	
 * Detection and selection of more than one audio stream is implemented. 
 
@@ -77,7 +112,7 @@ The versionnumber has been changed from 6.0c to 6.0d because of the addition of 
 * The main menu is made more readable with bigger Program fontsizes. 
 
 	also most screens have been re-arranged for this purpose 
-	in some cases the re-size method has been adapted  
+	in some cases the re-size method has been adapted.  
 
 * All screens are made bigger to better cope with high resolution monitors.  
   
