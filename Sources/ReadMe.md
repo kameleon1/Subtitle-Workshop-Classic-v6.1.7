@@ -2,7 +2,19 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
-### 2018-07-15 (v6.0d):
+### 2018-07-19 (v6.0d/28)
+
+* Made the "Timed Text" format work again. 3 filetypes are associated with that format now:
+
+	xml (timed text xml format) 
+	
+	ttml (also timed text xml format)
+	
+	dfxp (Netflix timed text xml format)
+	
+* The 3rd party software "xmlparser-1.0.20" is no longer needed.	
+
+### 2018-07-15 (v6.0d/25):
 
 * Added 3 extra shortcuts (section Miscellaneous):
 

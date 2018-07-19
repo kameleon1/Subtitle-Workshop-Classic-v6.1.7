@@ -1,6 +1,8 @@
 Subtitle workshop 6.0d Classic, Technical documentation for software contributors.
 ==================================================================================
 
+Updated: 2018-07-19
+
 Contents:
 ---------
 
@@ -24,7 +26,7 @@ Additional components Subtitle Workshop requires:
 - PascalScript from REMObjects (included in source, see "3rd party components" directory, https://github.com/remobjects/pascalscript)
 - VirtualTreeView (included in source, v6.7.0 was used, see https://github.com/Virtual-TreeView/Virtual-TreeView/releases)
 
-Additional components Subtitle API requires:
+Additional components Subtitle API requires (no longer needed from v6.0d/28 onwards):
 - XML Parser (included in source, v1.0.20 was used, see http://www.destructor.de/xmlparser/index.htm)
 
 To compile Subtitle Workshop's source code successfully:
@@ -86,7 +88,7 @@ C:\Delphi10 Projects
 		3rd party components
 			pascalscript-master
 			Virtual TreeView
-			xmlparser-1.0.20
+			xmlparser-1.0.20 (no longer needed from v6.0d/28 onwards)
 
 
 If you have a different structure then adapt the paths below.
@@ -104,7 +106,7 @@ The already installed pacakges (if any) are named:
 	RemObjects Pascal Script - Core Package
 	Subtitle Workshop Components
 	VirtualTreeview Controls
-	XML Parser Components
+	XML Parser Components (no longer needed from v6.0d/28 onwards)
 
 2 methods of installation exist:
 - using the precompiled version (so, without compiling again)
@@ -135,9 +137,10 @@ Click Add
 select C:\Users\Public\Documents\Embarcadero\Studio\19.0\bpl\VirtualTreesD25.bpl
 Click Open
 
-Click Add
-select C:\Users\Public\Documents\Embarcadero\Studio\19.0\bpl\XmlComponents_2007_XE.bpl
-Click Open
+
+Click Add (no longer needed from v6.0d/28 onwards)
+select C:\Users\Public\Documents\Embarcadero\Studio\19.0\bpl\XmlComponents_2007_XE.bpl (no longer needed from v6.0d/28 onwards)
+Click Open (no longer needed from v6.0d/28 onwards)
 
 Click Add
 select C:\Users\Public\Documents\Embarcadero\Studio\19.0\\bpl\SWComponents.bpl
@@ -169,7 +172,7 @@ Open Project C:\Delphi10 Projects\Subtitle Workshop\3rd party components\Virtual
 *Click right on VirtualTreesD25.bpl
 *Click Install
 
-Open Project C:\Delphi10 Projects\Subtitle Workshop\3rd party components\xmlparser-1.0.20\XmlComponents_2007_XE.dproj
+Open Project C:\Delphi10 Projects\Subtitle Workshop\3rd party components\xmlparser-1.0.20\XmlComponents_2007_XE.dproj (no longer needed from v6.0d/28 onwards)
 *Click right on XmlComponents_2007_XE.bpl
 *Click Clean
 *Click Build
@@ -279,7 +282,7 @@ Changed in the Subtitle workshop package with respect to Subtitle WorkSkop 6.0b 
 
 	Remark: in the Forms folder the corresponding .dfm files of .pas files above are also changed.
 
-There were no changes in the 3rd party package 'Virtual Treeview' or in package 'XML Parser'.
+There were no changes in the 3rd party package 'Virtual Treeview' or in package 'XML Parser'. (no longer needed from v6.0d/28 onwards)
 
 [end of document]
  
