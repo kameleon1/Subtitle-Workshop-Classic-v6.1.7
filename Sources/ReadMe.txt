@@ -3,34 +3,38 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
 
+2018-07-21 (v6.0d/29)
+
+    Supported a deviating dfxp file format (e.g. "<tt:br/>" in stead of "<br/>")
+
 2018-07-19 (v6.0d/28)
 
     Made the "Timed Text" format work again. 3 filetypes are associated with that format now:
-	- xml (timed text xml format) 
-	- ttml (also timed text xml format)
-	- dfxp (Netflix timed text xml format)
+    - xml (timed text xml format) 
+    - ttml (also timed text xml format)
+    - dfxp (Netflix timed text xml format)
 	
     The 3rd party software "xmlparser-1.0.20" is no longer needed.
 
 2018-07-15 (v6.0d/25):
 
     Added 3 extra shortcuts (section Miscellaneous):
-	- Applies the "Keep minimum duration" setting to the selected subtitles
+    - Applies the "Keep minimum duration" setting to the selected subtitles
     - Applies the "Default Subtitle Pause" setting to the selected subtitles
     - Applies both the "Keep minimum duration" and the "Default Subtitle Pause" settings to the selected subtitles
 
     Added an editing possibility for the shortcuts (added to the Settings menu).
     - all items in the new section [Edit Shortcuts] were added to the language file
-	- in section [Main menu/Settings] of the language file item 09 was added to the language file
-	- for every language a translation of the shortcut descriptions (including some other info) was added: e.g. Shortcuts_English.txt
+    - in section [Main menu/Settings] of the language file item 09 was added to the language file
+    - for every language a translation of the shortcut descriptions (including some other info) was added: e.g. Shortcuts_English.txt
       where 'English' should be replaced by the actual language name. The shortcut translation files are located in the 'Lang' subdir.
-	  English and Dutch files are already filled. If a file for a certain language is not found the English one is used.
+      English and Dutch files are already filled. If a file for a certain language is not found the English one is used.
 
     Removed an error when switching video renderers.
    
     Removed some errors in the Dutch translation.
 	
-	Added 'shortcuts.key' (the shortcuts file) to the setup.exe file (was missing).
+    Added 'shortcuts.key' (the shortcuts file) to the setup.exe file (was missing).
 
 2018-06-10 (v6.0d):
 
