@@ -2,6 +2,10 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
+### 2018-07-21 (v6.0d/29)
+
+* Supported a deviating dfxp file format (e.g. "<tt:br/>" in stead of "<br/>")
+
 ### 2018-07-19 (v6.0d/28)
 
 * Made the "Timed Text" format work again. 3 filetypes are associated with that format now:
