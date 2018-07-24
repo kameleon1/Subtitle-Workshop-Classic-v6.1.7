@@ -282,7 +282,7 @@ Changed in the Subtitle workshop package with respect to Subtitle WorkSkop 6.0b 
 
 	Remark: in the Forms folder the corresponding .dfm files of .pas files above are also changed.
 
-There were no changes in the 3rd party package 'Virtual Treeview' or in package 'XML Parser'. (no longer needed from v6.0d/28 onwards)
+There were no changes in the 3rd party package 'Virtual Treeview' or in package 'XML Parser' (no longer needed from v6.0d/28 onwards).
 
 [end of document]
  
