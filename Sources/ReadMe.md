@@ -2,6 +2,12 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
+### 2018-08-03 (v6.0d/31)
+
+* Made 'Load project" work (translation mode).
+
+* Removed an error in the main ini file location.
+
 ### 2018-07-24 (v6.0d/30)
 
 * Removed a font size error in the 'Insert Symbol' screen.
@@ -12,7 +18,7 @@ Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selectio
 
 ### 2018-07-21 (v6.0d/29)
 
-* Supported a deviating dfxp file format (e.g. "<tt:br/>" in stead of "<br/>")
+* Supported a deviating dfxp file format (e.g. "tt:br/" in stead of <br/")
 
 ### 2018-07-19 (v6.0d/28)
 
