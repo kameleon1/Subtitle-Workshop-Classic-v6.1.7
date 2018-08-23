@@ -3,6 +3,12 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
 
+2018-08-23 (v6.0d/32)
+
+   Added double quotes around the parameters for the external player.
+
+   Added an automatic "VIDEO_FILE" to the parameters for the external player.
+
 2018-08-03 (v6.0d/31)
 
     Made 'Load project" work (translation mode).
