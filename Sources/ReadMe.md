@@ -2,6 +2,10 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
+### 2018-09-01 (v6.0d/34)
+
+* Removed a problem with the display of the volume bar with small sizes of the main screen.
+
 ### 2018-08-31 (v6.0d/33)
 
 * Removed a problem with the subtitle size in the video preview after using the settings menu.
