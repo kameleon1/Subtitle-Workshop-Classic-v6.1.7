@@ -3,6 +3,10 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
 
+2018-09-11 (v6.0d/36)
+
+   Removed the "double button" error in the main form toolbar (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/d8863a53/).
+
 2018-09-10 (v6.0d/35)
 
    Removed a crash of the program when checking "Force using regions (may be slow)" in settings --> video preview --> subtitles.
