@@ -1,7 +1,23 @@
-                      Subtitle Editor 6.0d Classic
+                      Subtitle Editor 6.0e Classic
                       ============================
 
-Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc.
+Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
+
+2019-03-15 (v6.0e/01)
+
+  Added the Croation translation (thanks Abajo, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/general/thread/d4c9e6787c/#2cff).
+
+  Solved the Chinses character problem (thanks GardField, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/b471b4bf3c/#f7b3).
+
+  Adapted the helpfile.
+
+  Solved a problem with the "Rewind" and "Forward" buttons (2x the required time was stepped).
+
+  The "project" possibility can also be used in non translator mode now.
+
+  When opening a subtitle file the video position and the subtitle selection in the list are restored now (this was already the case with "projects").
+
+  Solved a problem with the 'Save as' screen and big font sizes.
 
 2018-11-06 (v6.0d/37)
 

@@ -1,7 +1,7 @@
 Subtitle workshop 6.0d Classic, Technical documentation for software contributors.
 ==================================================================================
 
-Updated: 2018-07-19
+Updated: 2019-02-07
 
 Contents:
 ---------
@@ -256,6 +256,7 @@ Changed in the Subtitle workshop package with respect to Subtitle WorkSkop 6.0b 
 	Subtitle Workshop\main\Forms\formSettings.pas
 	Subtitle Workshop\main\Forms\formSplit.pas 
 	Subtitle Workshop\main\Forms\formVariousInfo.pas5
+    Subtitle Workshop\main\Forms\formSymbolDlg.pas // moved to here from Subtitle Workshop\main\SWComponents\Sources in versionb 6.0e
 	Subtitle Workshop\main\Lib\DirectX\DirectShow9.pas
 	Subtitle Workshop\main\Lib\StrMan.pas
 	Subtitle Workshop\main\Lib\FastStrings.pas
@@ -268,7 +269,8 @@ Changed in the Subtitle workshop package with respect to Subtitle WorkSkop 6.0b 
 	Subtitle Workshop\main\SubtitleAPI\Source\USubtitlesSave.pas 
 	Subtitle Workshop\main\SWComponents\Sources\MiMenu.pas 
 	Subtitle Workshop\main\SWComponents\Sources\MiSubtitulo.pas
-	Subtitle Workshop\main\SWComponents\Sources\SymbolDlg.pas
+    Subtitle Workshop\main\SWComponents\Sources\formSymbolDlg.pas // moved to Subtitle Workshop\main\Forms in version 6.0e
+	Subtitle Workshop\main\SWComponents\Sources\SymbolDlg.pas  // removed in version 6.0e
 	Subtitle Workshop\main\SWComponents\Sources\TimeMaskEdit.pas
 	Subtitle Workshop\main\Units\Functions.pas 
 	Subtitle Workshop\main\Units\General.pas
