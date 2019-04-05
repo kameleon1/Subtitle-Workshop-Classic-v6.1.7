@@ -3,6 +3,15 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
 
+
+2019-04-05 (v6.0e/02)
+
+  The (last positions) .ini file is now also created using 'Save As' (thanks Xenos Latinos, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/ef6797c88b/).
+
+  A new format has been added : the Avid DS Caption format (thanks Xenos Latinos, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/76520698b0/).
+
+  The problem in Tools --> Informations and errors --> Settings Fix tab line "- " on first line not remembered is solved.
+
 2019-03-15 (v6.0e/01)
 
   Added the Croation translation (thanks Abajo, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/general/thread/d4c9e6787c/#2cff).
