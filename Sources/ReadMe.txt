@@ -3,6 +3,15 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
 
+2019-07-01 (v6.0e/03)
+
+  The .ini files holding the video position and the last selected subtitle are removed. The function is still there however.
+
+  If there a no audio tracks the audio track menu is disabled now.
+
+  The Greek translation is present now. Thanks to Xenos Latinos, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/20b5b37fba/#f20e.
+
+  The "SetDelay" has been made more versatile. 
 
 2019-04-05 (v6.0e/02)
 
