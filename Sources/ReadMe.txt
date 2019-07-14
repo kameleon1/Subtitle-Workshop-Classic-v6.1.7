@@ -3,11 +3,22 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
 
+
+2019-07-14 (v6.0e/04)
+
+  Also the selected audio stream is remembered now (both in projects and non projects), and restored when opening a subtitle or a project. 
+
+  The selected movie is remembered now and restored when loading a subtitle, provided the "AutoSearchMovie" setting is on. 
+ 
+  A problem with the file "LastChoices.txt" (access not allowed) has been solved.
+
+  The WEBVTT subtitle format is supported now.
+
 2019-07-01 (v6.0e/03)
 
   The .ini files holding the video position and the last selected subtitle are removed. The function is still there however.
 
-  If there a no audio tracks the audio track menu is disabled now.
+  If there are no audio tracks the audio track menu is disabled now (a number of fake audio tracks were visible in this case).
 
   The Greek translation is present now. Thanks to Xenos Latinos, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/20b5b37fba/#f20e.
 
