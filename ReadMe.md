@@ -2,6 +2,14 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
+### 2019-07-21 (v6.0e/05)
+
+* The Outline/Shadow problem has been solved.
+
+* The undo problem for multi line subtitles has been solved.
+
+* Removed an error in the SUBSTATIONALPHA read/convert routine.
+
 ### 2019-07-14 (v6.0e/04)
 
 * Also the selected audio stream is remembered now (both in projects and non projects), and restored when opening a subtitle or a project. 
@@ -133,7 +141,7 @@ Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selectio
 
 * The versionnumber has been changed from 6.0c to 6.0d because of the addition of the VLC video renderer.
 
-* Added the VLC player as extra renderer (only visible if VLC - the 32 bits version- is installed on your PC).
+* Added the VLC player as extra renderer (only visible if VLC - the 32 bits version- is installed on your PC). https://www.videolan.org/vlc/download-windows.html
 
 * The Dutch translation has been completed now.
 
