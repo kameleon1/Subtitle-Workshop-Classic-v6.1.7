@@ -3,6 +3,16 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
 
+2019-07-26 (v6.0e/06)
+
+  Removed an error in 'text before colon' detection. Digits before the colon are allowed now.
+
+  Removed a problem of losing text in the shown subtitle when it is in bold.
+
+  Solved several problems in subtitles with more than one line.
+
+  Solved a problem with undo and bold tags.
+
 2019-07-21 (v6.0e/05)
 
   The Outline/Shadow problem has been solved.
