@@ -2,6 +2,18 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
 
+### 2019-08-10 (v6.0e/07)
+
+* Tools -> Information and Errors -> Information and Errors: Only errors visible in the error/warning list are handled by the 'Fix Errors' button now.
+
+* The 'no sound' problem reported by Willem52 has been solved (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/57dbceecc8/?page=0).
+
+* Solved a problem with change of width between sessions when "Smart resize" was on (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/8b1a0d20ff/).
+
+* Problem with Cyrillic texts solved (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/8bb900890e/).
+
+* The test for an "Unnecessary Spaces" error between digits has now been limited to just that. 
+
 ### 2019-07-26 (v6.0e/06)
 
 * Removed an error in 'text before colon' detection. Digits before the colon are allowed now.
