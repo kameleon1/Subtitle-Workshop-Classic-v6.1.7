@@ -3,6 +3,12 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support and other improvements and extensions.
 
+2019-08-16 (v6.0e/08)
+
+  Resolved an error when opening a subtitle file with a specific format choice (unequal to 'All supported Files' or 'All Files').
+
+  Solved an error with "Fast unbreak Subtitles" and possibly other functions on subtitles with a break in them (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/90f4941e88/?limit=25#ed59).
+
 2019-08-10 (v6.0e/07)
 
   Tools -> Information and Errors -> Information and Errors: Only errors visible in the error/warning list are handled by the 'Fix Errors' button now.
