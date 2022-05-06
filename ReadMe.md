@@ -1,6 +1,95 @@
-# Subtitle-Workshop-Classic-v6.0e
+# Subtitle-Workshop-Classic-v6.1.0-Classic
 
-Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support etc. 
+Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support, Hunspell spellchecker and other improvements and extensions. 
+
+### 2022-05-05 (v6.1.0)
+
+* Added labels to the original and translations charset selections in the main screen.
+
+* Made the subtitles's charset selection available when no subtitles are loaded yet.
+
+* Added "Set Delay" and "Divide Lines" to the list's pop-up menu. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/9239f7c6cc/
+
+* Disabled the hovering activity over the seek bar. Was confusing. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/62a2fff8/
+
+* Negative times (e.g. Pause or durationn) are displayed correctly now in the list.
+
+* Made 'Associate Subtitle extensions with Subtitle Workshop' (settings-File types) more understandable:
+    Checking it: 
+      - makes all checked extensions in the list associated with Subtitle Workshop
+      - removes all extension associations in the list that are not checked
+    Unchecking it:
+      - removes all extensions associations to Subtitle Workshop
+    The list and its checked extensions is no longer changed by clicking 'Associate Subtitle extensions with Subtitle Workshop'. 
+
+* Added the DRTIC subtitle format (*.dtc extension), see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/77ee86fbbb/.
+
+* Loading a project made more efficient.
+
+* Implemented request 'Would it be possible to make "Set pauses" available as a shortcut?' see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/d367784c6d/
+
+* Implemented request 'Could you put a question before the deletion that "Do you really want to delete this custom info set?"', see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/bfc4861602/.
+
+* Added the 'Hunspell" spellchecker.
+
+* Added the "Goto movie position" feature (under the "Search" menu). Permits to goto a certain time in the movie. Also the 10 most recent movie positions are kept.
+
+* Splitted up the subtitle class 'Timed Text' up in separate xml, ttml and dfxp classes.
+
+* WebVTT files (*.vtt) now allow extra text following the final time of a subtitle.
+
+* Added "Go to movie time" and "Recent movie positions" in the search menu. Maximal 10 recent movie postions are remembered per movie.
+
+* Removed a bug in Synchronize Subtitle functionality.
+
+* Problem solved: fix "too long lines" can not be activated, (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/76a6c870d1/).
+	  Reason: the solution was not implemented.
+	  Additionally also 'Too short Pauses', 'Too long duration' and 'Too short duration" are implemented in this new version.
+	  A problem raises here: solving one problem regarding timing (pause or duration) may cause new time problems in the previous or the next subtitle. 
+      Nevertheless the solving is always attempted.
+	  Extra translation for the new texts needed for all languages except English, Dutch and French.	
+
+* Problem solved: CPS translated text, (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/94c4f8f6eb/)
+
+### 2019-09-30 (v6.0e/12)
+
+* Problem solved:The choices for "set Delay" was not stored well, (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/a81eb33662/?limit=25#a967).
+  
+* Problem solved: Fontsizes of outputsettings not saved, (See https://www.videohelp.com/software/Subtitle-Workshop/reviews#15466).
+
+### 2019-09-19 (v6.0e/11)
+
+* Solved a problem in 'divide lines', see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/58f92c34a6/?limit=25#0e48/eaff.
+
+* Reset the constraints of the 'Information and Errors' screen to the values of version 6.0e/09, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/58f92c34a6/?limit=25#0e48/eaff.
+
+### 2019-09-17 (v6.0e/10)
+
+* The default of the 'Spaces after characters' check is changed into '-.,;?!' (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/39e9917387/?limit=25#919c)
+
+* English spelling OCR file added. Thanks Mor Tuadh (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/0ff1b637c5/).
+
+* Did some resizing in the 'Errors and Information' screen. Buttontexts should stay better visible now.
+
+* The errorlist update is done now after a 'Divide lines' action (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/58f92c34a6/?limit=25#0e48).
+
+* Made a lot more windows resizable that were not yet (to cope with high resolution screens).
+
+* The Notes text is now converted from and back to the correct character set (defined by the Notes Charset).
+
+* Other texts are now converted from and back to the characterset defined in the language file. 
+
+### 2019-08-27 (v6.0e/09)
+
+* Subtitles with a non default codepage (e.g. Cyrillic) are handled correctly now.
+
+* Impaired hearing fix repaired (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/282887d1f1/)
+
+* Solved problem with extra space after custom character (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/39e9917387/)
+
+* Corrected an error in tag highlighting.
+
+* Made a number of forgotten errors wisible when hovering the subtitle list.
 
 ### 2019-08-16 (v6.0e/08)
 
