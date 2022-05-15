@@ -1,6 +1,17 @@
-# Subtitle-Workshop-Classic-v6.1.0
+# Subtitle-Workshop-Classic-v6.1.1-Classic
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support, Hunspell spellchecker and other improvements and extensions. 
+
+### 2022-05-14 (v6.1.1)
+
+* Solved: If I disable fixing "Too long durations" and "Too short durations", those are enabled automaticaly after opening "information and errors" again.
+  See https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/d0f1380fa8/
+
+* Updated the manual (help). At this moment only the English version is done.
+
+* Removed the minimum constraints for some forms so that they still fit on smaller screens.
+
+* Made the installation directory the same for every version, so one does not loose the already made settings.
 
 ### 2022-05-05 (v6.1.0)
 
