@@ -1,6 +1,16 @@
-# Subtitle-Workshop-Classic-v6.1.1-Classic
+# Subtitle-Workshop-Classic-v6.1.2-Classic
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support, Hunspell spellchecker and other improvements and extensions. 
+
+### 2022-06-08 (v6.1.2)
+
+* Redesigned the resizing of the "Info and Errors" screen.
+
+* Implemented: Could you please put the shortcuts next to the name of the pascal scripts in the list of the "P" icon? Like it is used in tools/pascal scripts.
+  See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/88a126d9b2/
+
+* Made the textcolor and the background color of the subtitle visible in the setup window (Settings, Video Preview, Subtitles).
+  Moved the place of shadow and outline settings to a more logical place. Removed the "Transparent Color" panel (not used).
 
 ### 2022-05-14 (v6.1.1)
 
