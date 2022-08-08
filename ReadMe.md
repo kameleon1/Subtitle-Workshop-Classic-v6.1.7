@@ -1,6 +1,59 @@
-# Subtitle-Workshop-Classic-v6.1.2-Classic
+# Subtitle-Workshop-Classic-v6.1.4-Classic
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support, Hunspell spellchecker and other improvements and extensions. 
+
+### 2022-xx-xx (v6.1.5)
+
+* When setting the final time of a subtitle no attempt to fix overlapping is done any more.
+
+### 2022-08-06 (v6.1.4)
+
+* Redesigned the "SaveAs" window for better readability. Format File extentsions are also shown now.
+
+* Added the format file extension to the format lists in "Settings Formats to show when SaveAs".
+
+* Added the name(s) of associated formats in the "Settings File Types" list.
+
+* Made it possible to (independant of the main window) change (and remember) the character font size of almost all  windows.
+  The change is done with the up/down control in the left bottom corner of the window.
+  The font of list of errors in the "Infprmation and Errors" window can be resized separately (see the up/down control in the right top corner of the list).
+
+* The "Default Format" is taken into account now in the "SaveAs" window.
+
+* The value for video forward and backward actions can also be defined in frames (instead of seconds) now. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/8df0c01069/ and https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/d890b93245/
+
+* Custom format also accepts tabs in the description part now (see https://sourceforge.net/p/subtitle-workshop-classic/discussion/helpdone/thread/44b212bd8b/?limit=25).
+
+* Corrected an error in the Hunspell window: manually given texts were ignored.
+
+* Hunspell now makes a difference between upper/lower case characters.
+
+* Added the possibility to sort on group and number in the "Used Shortcuts" window.
+
+### 2022-07-12 (v6.1.3)
+
+* File saved in customformat can be saved in UTF-8 coding now.
+
+* Also translations can be saved in custom format now.
+
+* "Allow fraction numbers as subtitle outline and shadow thickness values" for the Advanced Substation Alpha and Substation Alpha formats. 
+  see https://sourceforge.net/p/subtitle-workshop-classic/tickets/6/
+
+* The "WebSrt" format has been added, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/8df0c01069/.
+
+* The maintoolbar is also resized now.
+
+* The active page is remembered now in the "Edit Shortcuts" window.
+
+* Remember the UTF-8 setting in Save as window: Implemented, see https://sourceforge.net/p/subtitle-workshop-classic/tickets/5/.
+
+* Corrected an error in subtitle positioning using deviating charsets (only one row was shown).
+
+* Custom format processing can handle "hh:mm:ss:ff" (frames in stead of milliseconds) now. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/help/thread/44b212bd8b/
+
+* Solved extra weird characters visible after alt-V in the edit field, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/3949f1f616/
+
+* Added the presence of the hovering activity over the seekbar in the settings now (Item "Seekbar hovering"). See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/62a2fff8/
 
 ### 2022-06-08 (v6.1.2)
 
@@ -31,7 +84,7 @@ Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selectio
 
 * Added "Set Delay" and "Divide Lines" to the list's pop-up menu. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/9239f7c6cc/
 
-* Disabled the hovering activity over the seek bar. Was confusing. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/62a2fff8/
+* Disabled the hovering activity over the seekbar. Was confusing. See https://sourceforge.net/p/subtitle-workshop-classic/discussion/feat/thread/62a2fff8/
 
 * Negative times (e.g. Pause or durationn) are displayed correctly now in the list.
 
@@ -181,7 +234,7 @@ Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selectio
 
 * Added the Croation translation (thanks Abajo, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/general/thread/d4c9e6787c/#2cff).
 
-* Solved the Chinses character problem (thanks GardField, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/b471b4bf3c/#f7b3).
+* Solved the Chinese character problem (thanks GardField, see https://sourceforge.net/p/subtitle-workshop-classic/discussion/bugs/thread/b471b4bf3c/#f7b3).
 
 * Adapted the helpfile.
 
