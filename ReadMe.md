@@ -2,10 +2,6 @@
 
 Subtitle Editor derived from version 6.0b, but with UTF-8, audio stream selection, VLC support, Hunspell spellchecker and other improvements and extensions. 
 
-### 2022-xx-xx (v6.1.5)
-
-* When setting the final time of a subtitle no attempt to fix overlapping is done any more.
-
 ### 2022-08-06 (v6.1.4)
 
 * Redesigned the "SaveAs" window for better readability. Format File extentsions are also shown now.
